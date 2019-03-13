@@ -1,0 +1,32 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+
+.modalContents {
+    z-index: 11;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 5px;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    max-height: 552px;
+    background-color: #fff;
+}
+
+.facebook {
+    background-color: darkblue;
+    margin-bottom: 5px;
+}
+
+.twitter {
+    background-color: lightskyblue;
+}
